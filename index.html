@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Priced in BTC</title>
+    <style>
+        :root {
+            --btc-orange: #F7931A;
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --text-secondary: #555;
+            --card-bg: #FFFFFF;
+            --border: #E5E5E5;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --text: #E5E5E5;
+                --text-secondary: #AAA;
+                --card-bg: #1E1E1E;
+                --border: #333;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: var(--btc-orange);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            font-size: 40px;
+            color: #FFF;
+            font-weight: 700;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        header .subtitle {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        .effective-date {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 4px 14px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        section {
+            margin-bottom: 36px;
+        }
+
+        section h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--btc-orange);
+            display: inline-block;
+        }
+
+        section p {
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+
+        section ul {
+            margin: 8px 0 16px 20px;
+        }
+
+        section ul li {
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: var(--btc-orange);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: var(--card-bg);
+            border-left: 4px solid var(--btc-orange);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 15px;
+        }
+
+        .service-list {
+            list-style: none;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .service-list li {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 8px;
+        }
+
+        .service-list li strong {
+            color: var(--btc-orange);
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">&#x20BF;</div>
+            <h1>Priced in Bitcoin</h1>
+            <div class="subtitle">Privacy Policy</div>
+            <div class="effective-date">Effective: March 20, 2026</div>
+        </header>
+
+        <div class="highlight-box">
+            <p><strong>The short version:</strong> Priced in BTC does not collect, store, or share any personal data. The app has no accounts, no analytics, no ads, and no tracking.</p>
+        </div>
+
+        <section>
+            <h2>Information We Collect</h2>
+            <p>Priced in BTC does <strong>not</strong> collect any personal information. Specifically:</p>
+            <ul>
+                <li>No user accounts or sign-in of any kind</li>
+                <li>No names, email addresses, or contact details</li>
+                <li>No device identifiers or advertising IDs</li>
+                <li>No analytics, crash reporting, or usage tracking SDKs</li>
+                <li>No cookies, fingerprinting, or similar technologies</li>
+            </ul>
+            <p>The only data the app works with are publicly available financial prices (Bitcoin, stocks, commodities, and currencies) fetched from third-party APIs.</p>
+        </section>
+
+        <section>
+            <h2>How We Use Information</h2>
+            <p>Because we do not collect personal information, there is nothing to use, sell, or share. All app functionality runs entirely on your device.</p>
+            <ul>
+                <li><strong>Favorites</strong> &mdash; Your favorited assets are saved in the app's local storage (UserDefaults) on your device. This data is never transmitted anywhere.</li>
+                <li><strong>Widget data</strong> &mdash; If you use the home screen widget, configuration and cached prices are stored in a local App Group shared container on your device. This data never leaves your device.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>To display up-to-date prices, the app makes HTTPS requests to the following third-party data providers:</p>
+            <ul class="service-list">
+                <li><strong>CoinGecko</strong> &mdash; Bitcoin and gold price data<br><a href="https://www.coingecko.com/en/privacy" target="_blank" rel="noopener">CoinGecko Privacy Policy</a></li>
+                <li><strong>Yahoo Finance</strong> &mdash; Historical stock price data<br><a href="https://legal.yahoo.com/us/en/yahoo/privacy/index.html" target="_blank" rel="noopener">Yahoo Privacy Policy</a></li>
+                <li><strong>Finnhub</strong> &mdash; Live stock quotes<br><a href="https://finnhub.io/terms-of-service" target="_blank" rel="noopener">Finnhub Terms of Service</a></li>
+                <li><strong>Frankfurter</strong> &mdash; Foreign exchange rates<br><a href="https://www.frankfurter.app" target="_blank" rel="noopener">Frankfurter API</a></li>
+            </ul>
+            <p>These requests are standard HTTPS calls that transmit only the price query itself. No personal data is included in these requests. However, as with any internet request, your <strong>IP address</strong> is visible to the receiving server. This is inherent to how the internet works and is not something the app controls. We encourage you to review the privacy policies of these services.</p>
+        </section>
+
+        <section>
+            <h2>Data Storage</h2>
+            <p>All data stored by Priced in BTC resides exclusively on your device:</p>
+            <ul>
+                <li><strong>Preferences and favorites</strong> are stored in iOS UserDefaults.</li>
+                <li><strong>Widget data</strong> is stored in a local App Group shared container.</li>
+                <li>No data is stored on external servers owned or operated by us.</li>
+                <li>Uninstalling the app removes all locally stored data.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>Priced in BTC does not collect personal information from anyone, including children under the age of 13. The app contains no user-generated content, social features, or in-app purchases.</p>
+        </section>
+
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>If we make changes to this privacy policy, we will update the effective date at the top of this page. Because the app collects no personal data, meaningful changes are unlikely. If the app's data practices ever change significantly, we will provide notice through an app update.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>If you have questions or concerns about this privacy policy, please contact us at:</p>
+            <p><a href="mailto:privacy@pricedinbtc.com">privacy@pricedinbtc.com</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Priced in BTC. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

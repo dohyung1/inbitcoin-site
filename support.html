@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — InBitcoin</title>
+    <style>
+        :root {
+            --btc-orange: #F7931A;
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --text-secondary: #555;
+            --card-bg: #FFFFFF;
+            --border: #E5E5E5;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --text: #E5E5E5;
+                --text-secondary: #AAA;
+                --card-bg: #1E1E1E;
+                --border: #333;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+        header { text-align: center; margin-bottom: 48px; }
+        .app-icon {
+            width: 80px; height: 80px; border-radius: 18px;
+            background: var(--btc-orange);
+            display: inline-flex; align-items: center; justify-content: center;
+            margin-bottom: 16px; font-size: 40px; color: #FFF; font-weight: 700;
+        }
+        header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+        header .subtitle { color: var(--text-secondary); font-size: 15px; }
+        section { margin-bottom: 36px; }
+        section h2 {
+            font-size: 20px; font-weight: 600; margin-bottom: 12px;
+            padding-bottom: 8px; border-bottom: 2px solid var(--btc-orange);
+            display: inline-block;
+        }
+        section p { margin-bottom: 12px; }
+        section ul { margin: 8px 0 16px 20px; }
+        section ul li { margin-bottom: 6px; }
+        a { color: var(--btc-orange); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .highlight-box {
+            background: var(--card-bg);
+            border-left: 4px solid var(--btc-orange);
+            padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 16px 0;
+        }
+        .highlight-box p { margin-bottom: 0; font-size: 15px; }
+        footer {
+            text-align: center; padding-top: 32px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary); font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">&#x20BF;</div>
+            <h1>InBitcoin</h1>
+            <div class="subtitle">Support</div>
+        </header>
+
+        <div class="highlight-box">
+            <p>We're here to help. If you have questions, feedback, or run into any issues, reach out and we'll get back to you.</p>
+        </div>
+
+        <section>
+            <h2>Contact</h2>
+            <p>For support inquiries, bug reports, or feature requests:</p>
+            <p><a href="mailto:privacy@pricedinbtc.com">privacy@pricedinbtc.com</a></p>
+        </section>
+
+        <section>
+            <h2>FAQ</h2>
+            <ul>
+                <li><strong>Where do prices come from?</strong> — Live prices are fetched from CoinGecko, Yahoo Finance, Finnhub, and Frankfurter APIs.</li>
+                <li><strong>Why are some prices labeled "estimate"?</strong> — Items like Big Mac, Lamborghini, and real estate use approximate market prices that are updated periodically.</li>
+                <li><strong>Does the app collect my data?</strong> — No. InBitcoin collects zero personal data. See our <a href="index.html">Privacy Policy</a>.</li>
+                <li><strong>Can I request a new asset?</strong> — Yes! Email us and we'll consider adding it in a future update.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>App Information</h2>
+            <ul>
+                <li><strong>Version:</strong> 1.0.0</li>
+                <li><strong>Platform:</strong> iOS 26+</li>
+                <li><strong>Developer:</strong> dohyung1</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 InBitcoin. All rights reserved.</p>
+            <p style="margin-top: 8px;"><a href="index.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
